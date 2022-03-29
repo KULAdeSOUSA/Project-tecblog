@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background-color: #e6e6e6;
+}
+.cabecalho{
+    width: 100%;
+    background-color: #f7b600 ;
+    padding: 15px;
+}
+.titulo-cabecalho{
+    text-align: center;
+    padding: 10px;
+}
+.links-menu{
+    text-align: center;
+    padding: 10px;
+}
+a:link, a:visited {
+    color: #fff;
+}
+a:hover{
+    color: #f7b600;
+    background-color: #fff;
+    border-radius: 10px;
+}
+a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.branco{
+    color: white;
+}
