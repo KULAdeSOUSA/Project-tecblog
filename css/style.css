@@ -8,6 +8,9 @@ body{
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     background-color: #e6e6e6;
 }
+header{
+    width: 100%;
+}
 .cabecalho{
     width: 100%;
     background-color: #f7b600 ;
@@ -21,15 +24,15 @@ body{
     text-align: center;
     padding: 10px;
 }
-a:link, a:visited {
+a.menu:link, a.menu:visited {
     color: #fff;
 }
-a:hover{
+a.menu:hover{
     color: #f7b600;
     background-color: #fff;
     border-radius: 10px;
 }
-a{
+a.menu{
     padding: 10px;
     text-decoration: none;
     color: white;
@@ -37,4 +40,58 @@ a{
 }
 .branco{
     color: white;
+}
+#content{
+    width: 920px;
+    margin: 0 auto;
+    padding: 10px;
+    
+    
+}
+#area-postagens,#area-lateral{
+    background-color: white;
+    
+}
+#area-postagens{
+    width: 660px;
+    float: left;
+}
+.postagem{
+    padding: 10px;
+}
+.p-post{
+    margin-bottom: 10px;
+}
+#area-lateral{
+    width: 240px;
+    float: right;
+    margin-bottom: 20px;
+}
+a, a.link{
+    color: #f7b600;
+    text-decoration:none;
+}
+a#link:hover{
+    color: black;
+    background-color: #f7b600;
+}
+
+#rodape{
+background-color: rgb(29, 25, 14);
+clear: both;
+padding: 20px;
+text-align: center;
+color: #f7b600;
+width: 100%;
+}
+h3{
+    background-color: rgb(175, 175, 175);
+    padding: 5px;
+}
+.padding{
+    padding: 5px;
+}
+.display{
+    display: block;
+    padding: 5px 0;
 }
